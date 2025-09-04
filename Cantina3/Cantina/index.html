@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>CANTINA CHICHILO</title>
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="img/unnamedaa.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Premios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-danger" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- carrusel -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/cas1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/cas2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/cas3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br />
+      <h1 class="text-center">Platos Especiales</h1>
+      <br />
+      <!-- cards -->
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/img1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Mondongo a la Italiana</h5>
+              <p class="card-text">
+                Un clásico de nuestra cocina, la receta más pedida desde 1956.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/img2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Caracoles a la Bordaleza</h5>
+              <p class="card-text">
+                Caracoles criados en Pinamar, preparados con tradición.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/img3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rabas a la Calabria</h5>
+              <p class="card-text">
+                Calamares frescos, crujientes, acompañados con limón.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/img4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Paella</h5>
+              <p class="card-text">
+                La auténtica paella de Chichilo, con mariscos seleccionados.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/img5.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Fusiles al Ferretto</h5>
+              <p class="card-text">
+                Pasta casera amasada en la cantina, servida con brócolis y
+                anchoas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/img6.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Tiramisú Calabrés</h5>
+              <p class="card-text">
+                Postre de la casa, receta especial de la familia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <h1 class="text-center">Nuestra Historia</h1>
+      <br />
+
+      <!-- Historia -->
+      <div class="container text-bg-danger p-3">
+        <section id="historia ">
+          <div class="historia">
+            <p>
+              <strong>Cantina Chichilo de Buenos Aires</strong> abrió sus
+              puertas en 1956 en el barrio de La Paternal. Desde entonces, ha
+              sido atendida por sus dueños, manteniendo viva la tradición
+              italiana en cada plato.
+            </p>
+            <p>
+              Fue elegida por <b>Pol-Ka Producciones</b> para rodajes como
+              <i>"Ilusiones"</i>, <i>"El Sodero de mi Vida"</i> y
+              <i>"Mujeres Asesinas"</i>. Además, fue el lugar preferido de Diego
+              Maradona.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Galeria -->
+
+      <br />
+      <h1 class="text-center">Galeria</h1>
+      <br />
+
+      <div class="card-group">
+        <div class="card">
+          <img src="img/cliente2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Cliente disfrutando caracoles</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Foto tomada en 2024</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/sorrentinos.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Sorrentinos caseros</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Foto tomada en 2024</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/picada.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Picada Italiana</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Foto tomada en 2025</small>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <br>
+    <h1 class="text-center">Premios y Reconocimientos</h1>
+    <br>
+
+    <!-- PREMIOS -->
+    <div class="container text-bg-danger p-3">
+      <section id="premios">
+        <p style="text-align: center; font-size: 1.2rem">
+          Ganadora de los <strong>Premios Clarín</strong> y
+          <strong>Martín Fierro 2005</strong>.
+        </p>
+      </section>
+    </div>
+
+    <br />
+    <br />
+
+    <footer class="text-bg-dark p-3">
+      <footer id="contacto" class="text-white text-center">
+        <p>
+          <strong>📍 Dirección:</strong> Camarones 1901 - CABA, Buenos Aires
+        </p>
+        <p><strong>📞 Teléfonos:</strong> 4584-1263 | 1150200152</p>
+        <p>
+          <strong>Horarios:</strong> Jueves a Sábados (Cena 20:30 - 23:30) |
+          Sábados y Domingos (Almuerzo 12:30 - 14:30)
+        </p>
+        <p>
+          Síguenos en
+          <a href="#" class="text-black">Facebook</a> |
+          <a href="#" class="text-black">Instagram</a>
+        </p>
+        <p>© 2025 Cantina Chichilo. Todos los derechos reservados.</p>
+      </footer>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
